@@ -44,6 +44,7 @@ RUN export JOBBER_HOME=/tmp/jobber && \
     # Cleanup
     apk del \
       go \
+      musl-dev \
       git \
       curl \
       wget \
